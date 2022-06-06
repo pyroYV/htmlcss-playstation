@@ -15,7 +15,7 @@
     background-image: url(./img/jumbo-bg.png);
     height: 600px;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     background-position:center;
 }
 h1{
@@ -27,4 +27,16 @@ h1{
 
 #showcase h5{
  color: var(--blue);
+}
+
+.hero2{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+#new-release {
+    background-color: var(--bg-grey);
 }
