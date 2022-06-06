@@ -1,0 +1,10 @@
+:root{
+    --blue: #0070d1;
+    --bg-grey:#1f1f1f;
+    --light-grey:#bebcbb;
+    --bg-dark-blue:#161c3b;
+}
+
+#logo-sony{
+    height:25px; 
+}
