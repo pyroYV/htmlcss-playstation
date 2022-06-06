@@ -40,3 +40,7 @@ h1{
 #new-release {
     background-color: var(--bg-grey);
 }
+
+#play-plus{
+    background-color: var(--light-grey);
+}
