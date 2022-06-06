@@ -4,21 +4,27 @@
     --light-grey:#bebcbb;
     --bg-dark-blue:#161c3b;
 }
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #logo-sony{
     height:25px; 
 }
 
 .hero{
-    background-image: url(./img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(./img/jumbo-bg.png);
     height: 600px;
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-position:100% 40%;
+    background-position:center;
 }
-.hero h1{
+h1{
     font-size: 36px;
 }
 .sr-margin-hero{
     margin-top: 200px;
+}
+
+#showcase h5{
+ color: var(--blue);
 }
