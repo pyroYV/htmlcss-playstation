@@ -12,18 +12,15 @@
 </head>
 
 <body>
-    <!--     aggiungere la lente nella nav -->
-    <header>
+    <header class="sticky-top bg-light">
         <section>
-            
             <div class="row justify-content-end bg-black p-1">
                 <img src="./img/sony_logo.svg" alt="" id="logo-sony">
             </div>
-          
         </section>
         <nav class="navbar navbar-expand-lg navbar-fixed-top">
 
-            <div class="container">
+            <div class="container-fluid p-1">
                 <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +34,28 @@
                                 Giochi
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <ul class="d-flex justify-content-center">  
+                                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a> Playstation 5</li>
+                                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a> Playstation 6</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="./img/play-menu-ico.png" alt=""></a> Playstation 7</a></li>
+                            </ul>
+                              
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <ul class="d-flex flex-row justify-content-center">
+                                        <li><a class="dropdown-item" href="#">
+                                            Link Servizi</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Link Servizi</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Link Servizi</a>
+                                        </li>
+                                    </ul>
+                                </a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -116,7 +129,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav d-flex align-items-center">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -133,7 +146,9 @@
                         </li>
                         <li class="nav-item">
                             <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
-
+                        </li>
+                        <li class="nav-item p-2">
+                            <img src="./img/lens.svg" alt="" class="w-50">
                         </li>
 
                     </ul>
@@ -586,8 +601,8 @@
                         Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i
                         contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi
                         registrati, grafica e immagini associati sono marchi registrati elo materiale
-                        protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. 
-                       <a href="">Maggiori info</a> 
+                        protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati.
+                        <a href="">Maggiori info</a>
                     </p>
                 </div>
             </div>

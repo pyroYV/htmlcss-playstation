@@ -63,3 +63,18 @@ ul{
     list-style: none;
 }
 
+.dropdown-menu{
+    width: 100vw;
+}
+
+.nav-item.dropdown{
+    position: static;
+}
+.dropdown-item{
+    width: 30%;
+}
+/* 
++++++++++++++++++++++++++++++
++++++++++Animazioni++++++++++
++++++++++++++++++++++++++++++ */
+
