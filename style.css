@@ -3,12 +3,14 @@
     --bg-grey:#1f1f1f;
     --light-grey:#bebcbb;
     --bg-dark-blue:#161c3b;
+    --footer-blue:#00439c;
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 #logo-sony{
-    height:25px; 
+    height:25px;
+    width: 100px; 
 }
 
 .hero{
@@ -48,3 +50,16 @@ h1{
 #play-now{
     background-color: var(--bg-dark-blue);
 }
+
+.sr-max-widht{
+    max-width: 200px;
+}
+
+footer{
+    background-color: var(--footer-blue);
+}
+
+ul{
+    list-style: none;
+}
+
