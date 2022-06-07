@@ -44,3 +44,7 @@ h1{
 #play-plus{
     background-color: var(--light-grey);
 }
+
+#play-now{
+    background-color: var(--bg-dark-blue);
+}
